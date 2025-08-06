@@ -254,13 +254,13 @@ export default function Portfolio() {
                     <Button size="sm" variant="outline" asChild>
                       <Link href={project.github} target="_blank">
                         <Github className="mr-2 h-4 w-4" />
-                        Code
+                        Github
                       </Link>
                     </Button>
                     <Button size="sm" asChild>
                       <Link href={project.demo} target="_blank">
                         <ExternalLink className="mr-2 h-4 w-4" />
-                        Demo
+                        Essayer
                       </Link>
                     </Button>
                   </div>
