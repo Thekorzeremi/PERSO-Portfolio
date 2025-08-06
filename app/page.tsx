@@ -17,26 +17,26 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
-      tech: ["Next.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
-      github: "#",
+      title: "SNCT - Clone de l'application SNCF",
+      description: "Application ferroviaire complète permettant la gestion des trajets, des horaires, la réservation de billets et l'administration des utilisateurs.",
+      tech: ["Flutter", "Firebase", "Dart"],
+      github: "https://github.com/Thekorzeremi/IPSSI-SNCT",
       demo: "#",
       image: "/modern-ecommerce-interface.png"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates, team collaboration, and progress tracking.",
-      tech: ["React", "Node.js", "Socket.io", "MongoDB"],
-      github: "#",
+      title: "Pulsera360 - Application CRM",
+      description: "Plateforme CRM collaborative pour la gestion des clients, la communication en temps réel et le suivi des activités commerciales.",
+      tech: ["React", "Node.js", "Express", "MariaDB"],
+      github: "https://github.com/Thekorzeremi/PFE-Pulsera360",
       demo: "#",
       image: "/task-management-dashboard.png"
     },
     {
-      title: "Analytics Dashboard",
-      description: "Data visualization platform with interactive charts, real-time metrics, and customizable reports.",
-      tech: ["Vue.js", "Python", "FastAPI", "Chart.js"],
-      github: "#",
+      title: "Structura - Gestion de chantiers",
+      description: "Plateforme de gestion de chantiers de construction avec suivi des tâches, des ressources et des rapports d'avancement.",
+      tech: ["React", "MariaDB", "Symfony"],
+      github: "https://github.com/Thekorzeremi/IPSSI-Structura",
       demo: "#",
       image: "/analytics-dashboard.png"
     }
